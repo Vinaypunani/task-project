@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <a href="/">Go back home</a>
+    <form action="/edit" method="post">
+        <input type="text" placeholder="Old Name" name="oldtitle" value="<%= filename %>">
+        <input type="text" placeholder="New Name" name="newtitle">
+        <input type="submit" value="Create task.">
+    </form>
+
+</body>
+</html>

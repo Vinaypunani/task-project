@@ -22,7 +22,10 @@
                    
                         <div class="card">
                             <h1><%= val %></h1>
-                            <a href="/file/<%= val %>">Read more.</a>
+                            <div class="links">
+                                <a href="/file/<%= val %>">Read more.</a>
+                                <a href="/edit/<%= val %>">Edit</a>
+                            </div>
                         </div>
                     
                 <% }) %>
